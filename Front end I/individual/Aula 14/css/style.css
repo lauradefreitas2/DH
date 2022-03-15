@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  .topo{
+    height: 40px;
+    background-color: #1CD1B0;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+  .topo2 {
+    height: 70px;
+    background-color: #00669F;
+    padding: 25px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 60px;
+  }
+
+   .quadrados{
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .card {
+    width: 300px;
+    height: 460px;
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    display: inline-block;
+  }
+
+ .card-1 {
+    margin-right: 30px;
+}
+
+  
+  .principal{
+  
+      background-image: url('../img/capabatman.png');
+      height: 180px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      position: relative;
+      background-position: center;
+  }
+  .principalalerquina {
+    background-image: url('../img/alerquina2.png');
+    height: 180px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    background-position: center;
+
+  }
+  
+  .alerquina{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 100px;
+    top:130px;
+    border-radius: 80px;
+  }
+  
+  .informações{
+    margin: 10px;
+  }
+  
+  .titulo {
+    margin-top: 40px;
+  }
+  
+  .titulo {
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .card__preco {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .fala {
+    text-align: justify;
+  }
+  .mulher-maravilha {
+    background-image: url('../img/capamulhermaravilha.png');
+    height: 180px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    background-position: center;
+
+  }
+  .imgmulhermaravilha {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 100px;
+    top:130px;
+    border-radius: 80px;
+
+  }
+.superman {
+  background-image: url('../img/capasuperman.png');
+    height: 180px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    background-position: center;
+}
+.imgsuperman {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 100px;
+  top:130px;
+  border-radius: 80px;
+}
+.divfooter {
+position: absolute;
+width: 1300px;
+height: 110px;
+left: 0px;
+top: 1200px;
+background: #00669F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+justify-content: space-between;
+}
+.pfooter {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #FFF9F9;
+}
+.imgfooter {
+  position: relative;
+  left: 1000px;
+}
+
+
+@media (max-width: 800px) {
+  .topo {
+      background-color: #D1891C;
+    }
+  .divfooter {
+      position: absolute; 
+      width: 1256px;
+      height: 120px;
+      left: 0px;
+      top: 2102px;
+      background: #00669F;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      padding: 10px;
+    }
+  .imgfooter {
+      position: relative;
+      left: 960px;
+    }
+  }
